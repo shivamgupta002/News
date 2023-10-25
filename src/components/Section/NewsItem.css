@@ -1,0 +1,44 @@
+.heading {
+    color: #298d7c;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.card_style {
+    margin: 1rem 0rem;
+    min-height: 30rem;
+    width: 21rem;
+    overflow: hidden;
+}
+
+.read_more {
+    text-decoration: none;
+    color: #38a09b;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.read_more :hover {
+    color: #272626;
+}
+
+.news_img {
+    position: relative;
+    z-index: 0;
+    height: 13rem;
+}
+
+.label {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+}
